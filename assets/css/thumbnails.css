@@ -1,0 +1,151 @@
+.wrap-thumbnail {
+	width: 100%;
+	display: inline-flex;
+}
+
+#thumbnail {
+	background: #f1f1f1;
+}
+
+.thumbnail {
+	padding: 60px 55px 75px;
+	margin: 0;
+	border: 0;
+}
+.thumbnail h3 {
+	color: #154667;
+	font-size: 1.2em;
+	font-family: 'Roboto';
+	text-transform: uppercase;
+}
+.thumbnail h3:after {
+	content: '';
+	display: block;
+	height: 1px;
+	width: 27px;
+	margin-top: 7px;
+	background: #154667;
+	margin-bottom: 45px;
+}
+.thumbnail p {
+	font-family: 'Montserrat', san-serif;
+	line-height: 1.35em;
+	text-align: justify;
+	font-size: 0.75em;
+}
+/*Orange*/
+.thumbnail.orange {
+	background: #62cc9e;
+	color: #fff;
+	position: relative;
+	border-radius: 0;
+	height: 100%;
+}
+.thumbnail.orange h3 {
+	color: #fff;
+}
+.thumbnail.orange h3:after {
+	background: #fff;
+}
+
+.thumbnail.orange:after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid #62cc9e;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	margin: auto -15px auto auto;
+	z-index: 5000;
+}
+
+/*Button*/
+.thumbnail.orange a.btn {
+	color: #fff;
+	border:1px solid;
+	width: 140px;
+	height: 50px;
+	padding: 15px;
+	font-family: 'Roboto';
+	display:inline-block;
+	margin-top: 80px;
+	border-radius: 5px;
+	text-align: center;
+	transition: 0.3s;
+	position: relative;
+	z-index: 10;
+}
+
+.thumbnail.orange a.btn:focus,
+.thumbnail.orange a.btn:visited,
+.thumbnail.orange a.btn:hover {
+	text-decoration:none;
+	outline: none;
+}
+
+.thumbnail.orange a.btn:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0;
+	background: #489674;
+	transition: 0.3s;
+	z-index: -1;
+	border-radius: 4px;
+}
+.thumbnail.orange a.btn:hover:before {
+	width: 100%
+}
+
+.thumbnail ul {}
+
+.thumbnail ul li {
+	display: inline-block;
+	width: 50%;
+	box-sizing: border-box;
+	padding: 0 35px 0 65px;
+	margin-bottom:  65px;
+	position: relative;
+}
+.thumbnail ul li h5 {
+	font-family: 'Roboto';
+	color: #072541;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.thumbnail ul li p {
+	color: #60818a;
+	text-align: left;
+	font-size: 0.75em;
+}
+
+.thumbnail ul li .img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 45px;
+	height: 45px;
+	background: #072541;
+}
+
+/* thumbnail grey*/
+.row .grey {
+	background: #f1f1f1;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	border-radius: 0;
+}
+

@@ -1,0 +1,24 @@
+/*setup*/
+/*@import url('bootstrap.css');*/
+@import url('reset.css');
+@import url('fonts.css');
+
+/*Plugin*/
+@import url('owl.carousel.css');
+
+/*components*/
+@import url('header.css');
+@import url('carousel.css');
+@import url('thumbnails.css');
+@import url('b_contact.css');
+@import url('product.css');
+@import url('news.css');
+@import url('map-video.css');
+@import url('footer.css');
+@import url('mobile-menu.css');
+
+/*mobile devices*/
+@import url('mobile-devices.css');
+
+@import url('modifires.css');
+

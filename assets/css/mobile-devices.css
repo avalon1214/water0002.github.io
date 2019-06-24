@@ -1,0 +1,168 @@
+/*Middle Devices*/
+@media only screen and ( max-width: 992px ) {
+	.wrap-thumbnail {
+		text-align: center;
+		display: inline-block;
+	}
+
+	.thumbnail {
+		display: block;
+	}
+
+	.thumbnail h3:after {
+		margin:  7px auto 45px auto;
+	}
+
+	.thumbnail.orange:before {
+		display: none;
+	}
+	.thumb_colum_color {
+		background: #ff6634;
+	}
+
+	.thumbnail.orange:after {
+		content: "";
+		display: block;
+		position: absolute;
+		width: 0;
+		height: 0;
+		border-right: 15px solid transparent;
+		border-top: 15px solid #62cc9e;
+		border-left: 15px solid transparent;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+		top: 0px;
+		margin: auto auto -30px auto;
+	}
+
+	#product_carousel .owl-dots {
+		display: none;
+	}
+}
+
+
+
+@media only screen and ( max-width: 768px ) {
+	
+	.thumbnail h3 {
+		text-align: center;
+	}
+
+	.thumbnail h3:after {
+		margin:  7px auto 45px auto;
+	}
+
+	.thumbnail ul li {
+		padding: 15px;
+	}
+
+	.thumbnail ul li h5,
+	.thumbnail ul li p {
+		text-align: center;
+	}
+
+	.thumbnail ul li img{
+		position: static;
+		display: block;
+		margin: 0 auto 15px auto;
+		width: 100px;
+		height: 57px;
+
+	}
+
+	.thumbnail .btn {
+		display: block;
+	}
+
+	.wrap-n2 img {
+		display: none;
+	}
+
+	.footer-wrap {
+    	display: flex;
+    }
+
+    .b_side2 ul li {
+    	font-size: 12px;
+    }
+}
+
+@media only screen and ( max-width: 426px ) {
+	.b_font {
+		font-size: 14px ;
+		border-right: none ;
+	}
+
+	#product_carousel .owl-dots {
+		display: none;
+	}
+
+	header nav {
+		display: none;
+	}
+
+	#header-carousel {
+		margin-top: 20px;
+		padding: 0 20px;
+	}
+
+	.wrap_b_contact {
+		margin-top: 20vh;
+	}
+
+	.wrap-m-v {
+		height: 400px;
+	}
+	.wrap-i {
+		width: 100%;
+	}
+	
+	.wrap-v {
+		width: 100%;
+	}
+}
+
+@media only screen and ( max-width: 375px ) {
+	.b_font {
+		font-size: 14px ;
+	}
+
+	.b_side {
+		border-right: none ;
+	}
+
+	.image-frame {
+		display: none;
+	}
+
+	#product_carousel .owl-dots {
+		display: none;
+	}
+
+	.image-description {
+	min-height: 100px ;
+	}
+
+}
+
+/*Extra Small Devices*/
+@media only screen and ( max-width: 320px ) {
+	.thumbnail ul li {
+		width: 100%;
+	}
+
+	#hexagon {
+		display: none ;
+	}
+
+	.b_font {
+	font-size: 10px ;
+	}
+	.b_side {
+	border-right: none ;
+	}
+	#product_carousel .owl-dots {
+		display: none;
+	}
+}

@@ -1,0 +1,387 @@
+
+.main-wrap {
+	background-color: #232525;
+	padding-top: 40px;
+}
+
+.h-hold {
+	display: flex;
+    width: 100%;
+    height: 18vh ;
+    text-align: center;
+    margin: 0px auto;
+    background-image: url(https://shared1.ad-lister.co.uk/UserImages/ebbf4d21-c7c4-4ad6-bd8a-5cf5312a237a/Img/_design/headbg.png);
+}
+
+.w-top {
+	width: 80vw;
+	margin: 0 auto;
+}
+
+.logo {
+	background-image: url(https://shared1.ad-lister.co.uk/UserImages/ebbf4d21-c7c4-4ad6-bd8a-5cf5312a237a/Img/_design/logonew.png);
+	width: 100%;
+    max-width: 186px;
+    height: 103px;
+    display: inline-flex;
+}
+
+.top-nav {
+	text-align: right;
+	display: inline-flex;
+	vertical-align: top;
+}
+
+.top-nav ul {
+	background-color: black;
+}
+
+.top-nav ul li {
+	display: inline-flex;
+	color: #fff;
+	margin: 0 5px;
+	font-size: 18px;
+}
+.top-nav ul li:hover {
+	color: red;
+	cursor: pointer;
+}
+
+nav {
+	background-color: white;
+	height: 5vh;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 5px;
+}
+
+nav ul li:hover {
+	background-color: black;
+	color: white;
+}
+
+.c-ban {
+	background-image: url(https://shared1.ad-lister.co.uk/UserImages/ebbf4d21-c7c4-4ad6-bd8a-5cf5312a237a/Img/_design/catbanner.jpg);
+	width: 100%;
+	height: 16vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* description */
+
+.desc {
+	max-width: 960px;
+	margin: 0 auto;
+	display: block;
+	background: white;
+	padding: 0 10px;
+}
+
+.w-d-p {
+	display: block;
+	width: 100%;
+    margin: 0 auto;
+    background: #232525;
+    max-width: 980px;
+}
+
+.desc-p-1 {
+	width: 323px;
+	max-width:320px;
+	height: 110px;
+	background-image: url(https://shared1.ad-lister.co.uk/UserImages/ebbf4d21-c7c4-4ad6-bd8a-5cf5312a237a/Img/_design/homepage/hpro2.jpg);
+	background-size: cover;
+	margin: 1% 0 1% 0%;
+	display: inline-block;
+}
+
+.desc-p-2 {
+	width: 323px;
+	max-width:320px;
+	height: 110px;
+	background-image: url(https://shared1.ad-lister.co.uk/UserImages/ebbf4d21-c7c4-4ad6-bd8a-5cf5312a237a/Img/_design/homepage/hpro3.jpg);
+	background-size: cover;
+	margin: 1% 0 1% 5.5px;
+	display: inline-block;
+}
+
+.desc-p-3 {
+	width: 323px;
+	max-width:320px;
+	height: 110px;
+	background-image: url(https://shared1.ad-lister.co.uk/UserImages/ebbf4d21-c7c4-4ad6-bd8a-5cf5312a237a/Img/_design/lp1.jpg);
+	background-size: cover;
+	margin: 1% 0 1% 5.5px;
+	display: inline-block;
+}
+
+/*TABS*/
+
+.tabs {
+	display: block;
+	width: 400px;
+	height: auto;
+}
+
+#tabs a{   
+   color:#000;   
+}
+#tabs a:active {
+    color: blue;
+}
+
+#tabs a[tabindex]:focus {
+    color:blue;
+    outline: none;
+}
+
+/*TOP-SECTION*/
+
+.top-sec {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: block;
+	background: white;
+}
+
+h2 {
+	margin: 0 auto 10px auto;
+    padding: 0px 0px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+    line-height: 40px;
+    text-align: left;
+}
+
+.p-images {
+	width: 100%;
+	height: auto;
+	background-color: white;
+}
+
+.p-images img {
+	width: 450px;
+	height: 450px;
+	display: block;
+	margin: 0 auto;
+}
+
+h3 {
+	width: 100%;
+	display: block;
+	margin: 10px auto;
+	padding: 0;
+	font-weight: 600;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	background: black;
+	line-height: 50px;
+}
+
+.description > p {
+	color: rgb(84, 141, 212);
+	font-size: 24px;
+	text-align: center;
+	padding: 0 10px;
+}
+
+.list-1 {
+	padding: 5% 20%;
+	list-style: circle;
+}
+
+.list-1 li {
+	font-size: 14px;
+	padding: 10px 0;
+}
+
+.list-1 li:nth-child(4) {
+	font-weight: 1000;
+	text-decoration: underline overline;
+	font-size: 24px;
+}
+
+.list-2 {
+	text-align: center;
+}
+
+
+.list-2 li {
+	padding: 10px 0 ;
+    font-size: 16pt;
+}
+
+.list-2 li:nth-child(1) {
+	color: red;
+    background-color: black;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.list-2 li:nth-child(2) {
+	color: rgb(89, 89, 89);
+    text-decoration: underline;
+}
+
+.list-2 li:nth-child(3) {
+	font-size: 12px;
+}
+
+
+
+/*TABS-NAV*/
+.tabs {
+    display: block;
+    width: 100%;
+    height:auto;
+    max-width: 960px;
+    background-color: green;
+    margin: 0 auto;
+    border: 1px solid #f4f4f4;
+}
+
+
+.tabs label {
+    background: linear-gradient(#eee, #ccc);
+    padding: 10px 0px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    max-width: 320px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    float: right;
+    color: black;
+}
+
+.tabs label:after {
+    content: "";
+    clear: both;
+    display: none;
+}
+
+
+.tabs input {
+    display: none!important ;
+    width: 0;
+    height: 0;
+    margin: 0;
+}
+
+
+.content ,.content-1 ,.content-2 ,
+.content-3 {
+/*    position: absolute;*/
+    top: 100%;
+    opacity: 0;
+    left: 0;
+    background: #fff;
+    color: black;
+    padding: 20px;
+    display: none;
+}
+
+.content-1 p, .content-2 p, 
+.content-3 p {
+	padding-top: 5%;
+}
+
+.content-1 span, .content-2 span, 
+.content-3 span {
+	font-weight: 600;
+	font-style: bold;
+	font-size: 18px;
+}
+
+.content-3 tbody tr:nth-of-type(1),
+.content-3 tbody tr:nth-of-type(3),
+.content-3 tbody tr:nth-of-type(5) {
+	background-color: rgb(228, 228, 228);
+	line-height: 2;
+
+}
+
+.content-3 tbody tr:nth-of-type(2),
+.content-3 tbody tr:nth-of-type(4),
+.content-3 tbody tr:nth-of-type(6) {
+	background-color: rgb(204, 204, 204);
+	line-height: 2;
+}
+
+
+#tab-1:checked ~ label:nth-of-type(1){
+    z-index: 2;
+    color: white;
+    background: black;
+}
+
+#tab-2:checked ~ label:nth-of-type(2) {
+    z-index: 2;
+    color: white;
+    background: black;
+}
+#tab-3:checked ~ label:nth-of-type(3){
+    z-index: 2;
+    color: white;
+    background: black;   
+}
+#tab-4:checked ~ label:nth-of-type(4) {
+    z-index: 2;
+    color: white;
+    background: black;
+}
+
+#tab-1:checked ~ label ~ .content-1,
+#tab-2:checked ~ label ~ .content-2,
+#tab-3:checked ~ label ~ .content-3,
+#tab-4:checked ~ label ~ .content-4 {
+    z-index: 1;
+    opacity: 1;
+    display: block
+}
+
+/*IMAGES AFTER DESCRIPTION*/
+
+.p-i-1 {
+	background-image: url(https://shared1.ad-lister.co.uk/UserImages/ebbf4d21-c7c4-4ad6-bd8a-5cf5312a237a/Img/_design/lp2.jpg);
+	height: 150px;
+}
+
+.p-i-2 {
+	background-image: url(https://shared1.ad-lister.co.uk/UserImages/ebbf4d21-c7c4-4ad6-bd8a-5cf5312a237a/Img/_design/lp3.jpg);
+	height: 150px;
+}
+
+.p-i-3 {
+	background-image: url(https://shared1.ad-lister.co.uk/UserImages/ebbf4d21-c7c4-4ad6-bd8a-5cf5312a237a/Img/_design/lp4.jpg);
+	height: 150px;
+}
+
+/*RELATED ITEMS*/
+
+.related {
+	max-width: 980px;
+    margin: 0 auto;
+    display: block;
+    background: white;
+}
+
+.r-item-1 {
+	display: inline-block;
+	height: 330px;
+	width: 23%;
+	background: red;
+}

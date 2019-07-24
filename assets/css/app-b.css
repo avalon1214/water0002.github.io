@@ -5,9 +5,9 @@
 }
 
 .h-hold {
-	display: flex;
+	display: inherit;
     width: 980px;
-    height: 18vh ;
+    height: 140px;
     text-align: center;
     margin: 0px auto;
     background-image: url(https://shared1.ad-lister.co.uk/UserImages/ebbf4d21-c7c4-4ad6-bd8a-5cf5312a237a/Img/_design/headbg.png);
@@ -15,6 +15,7 @@
 
 .w-top {
 	width: 980px;
+	max-width: 980px;
 	margin: 0 auto;
 }
 
@@ -23,7 +24,7 @@
 	width: 100%;
     max-width: 186px;
     height: 103px;
-    display: inline-flex;
+    display: inline-block ;
 }
 
 .top-nav {
@@ -71,10 +72,10 @@ nav ul li:hover {
 	background-image: url(https://shared1.ad-lister.co.uk/UserImages/ebbf4d21-c7c4-4ad6-bd8a-5cf5312a237a/Img/_design/catbanner.jpg);
 	width: 100%;
 	max-width: 980px;
-	height: 10vh;
+	height: 90px;
 	margin: 0 auto;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 }
 
 /* description */

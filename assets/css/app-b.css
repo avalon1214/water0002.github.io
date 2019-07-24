@@ -6,7 +6,7 @@
 
 .h-hold {
 	display: inherit;
-    width: 980px;
+    max-width: 980px;
     height: 140px;
     text-align: center;
     margin: 0px auto;
@@ -402,7 +402,8 @@ and (max-device-width : 480px) {
 		padding: 0px;
 	}
 	.h-hold {
-		height: 26vh;
+		height: 525px ;
+		max-width: 480px;
 	}
 	.c-ban {
 		display: none;

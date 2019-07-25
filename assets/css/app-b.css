@@ -38,7 +38,7 @@
 }
 
 .top-nav ul li {
-	display: inline-flex;
+	display: inline-block;
 	color: #fff;
 	margin: 0 5px;
 	font-size: 18px;
@@ -400,6 +400,7 @@ and (max-device-width : 480px) {
 /* Styles */
 	.main-wrap {
 		padding: 0px;
+		height: auto;
 	}
 	.h-hold {
 		height: 525px ;
@@ -457,6 +458,10 @@ and (max-device-width : 480px) {
 	.p-i-1, .p-i-2, .p-i-3 {
 		background-size: contain;
     background-repeat: round;
+	}
+
+	.list-1 li {
+		font-size: 24px;
 	}
 }
 
